@@ -35,7 +35,7 @@ int main()
     }
     else if (salary >= 50000 && salary < 100000)
     {
-     netsalary = salary - (salary* 0.10);
+     netsalary = salary - (salary* 0.10);          //salary - deduction 
      printf("salary after 10%% Tax: %.2f\n",netsalary);
     }
     else
